@@ -60,7 +60,7 @@ func structName(s string) string {
 }
 
 var types = map[string]string{
-	"String":              "string",
+	"String":              "[]byte",
 	"ArrayOf(String)":     "[]string",
 	"ArrayOf(Integer, 2)": "[]int",
 	"Integer":             "int",
